@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz des Drapeaux</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Devine le pays selon le drapeau</h1>
+        <div class="flag-container">
+            <img id="flag" alt="Drapeau du pays" src="">
+        </div>
+        <form id="guess-form">
+            <input type="text" id="country-guess" placeholder="Tape le nom du pays" required>
+            <button type="submit">Valider</button>
+        </form>
+        <p id="result-message"></p>
+        <button id="next-button" style="display:none;">Suivant</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
